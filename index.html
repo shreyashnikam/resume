@@ -13,6 +13,27 @@
         width: 150;height: 300;
         box-shadow:0 0 20px 10px rgb(0,140,186,0.5);
     }
+       .object{
+	width: 150px;
+	height: 150px;
+	background-color: black;
+	line-height: 150px;
+	color: white;
+	font-family: arial;
+	font-size: 18px;
+	text-align: center;
+	margin:15% 0 0 45%;
+	animation: animation 1s infinite alternate;
+}
+@keyframes animation{
+	0%{border-radius: 0;}
+	50%{background-color: darkcyan;}
+    100%{border-radius:50%;
+	   background-color: red;
+	   box-shadow: 8px 8px 8px black;
+	   }
+}
+    }
 </style>
 </head>
 <body bgcolor="yellow">
@@ -21,7 +42,7 @@
 	<tr bgcolor="orange">
 <th><h1><marquee>Welcome to my Resume!</marquee></h1>
 </th></tr>
-<tr><th align="left">Shreyash nikam
+	<tr><th align="left"><div class="object">Shreyash nikam</div>
 <img src="rename.jpg"align="right" height="300"width="150">
 <b>Works at Datta meghe</b><br><br>
 mobile No:8169109033<br><br>
